@@ -38,6 +38,7 @@ class Agent implements GameObject {
   }
 
   void render() {
+    stroke(0);
     for (VisionRay ray : rays_) {
       ray.render();
     }

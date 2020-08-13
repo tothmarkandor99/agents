@@ -38,7 +38,7 @@ void keyReleased() {
   }
 }
 
-void draw() { //<>// //<>//
+void draw() { //<>//
   float current = millis();
   float dt = current - lastTime;
 

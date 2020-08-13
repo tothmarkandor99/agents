@@ -16,6 +16,7 @@ class Box implements GameObject {
   }
 
   void render() {
+    stroke(0);
     fill(255, 160, 160);
     rectMode(CORNERS);
     rect(topLeftX_, topLeftY_, bottomRightX_, bottomRightY_);

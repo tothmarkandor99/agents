@@ -44,7 +44,11 @@ class VisionRay {
   }
 
   void render() {
-    stroke(100);
+    if (hit_) {
+      stroke(200, 0, 0);
+    } else {
+      stroke(0, 200, 0);
+    }
     line(fromX_, fromY_, toX_, toY_);
   }
 }
